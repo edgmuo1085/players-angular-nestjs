@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="players" *ngFor="let item of players">
+    <img [src]="item.imgURL" alt="item.names" />
+    <div class="card-body">
+      <h3>{{ item.names }}</h3>
+      <p>{{ item.info }}</p>
+    </div>
+  </div>
+</div>
